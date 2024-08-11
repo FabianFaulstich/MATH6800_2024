@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+</head>
+<style  type="text/css" >* {box-sizing: border-box;} .column { float: left; padding: 10px; } .left { width: 60%; } .right { width: 30%; } .row:after { content: ""; display: table; clear: both;}
+
+#seitenbereich{
+        width: 1200px;
+        margin:auto;
+        text-align:left;
+  }
+ul.edu{
+list-style-image: url('/dokumente/edu.png');
+}
+
+ul#eins {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(90,90,90);
+}
+li#eins {
+    float: left;
+border-right: 1px solid #bbb;
+}
+li a#eins {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li#eins:last-child {
+    border-right: none;
+}
+li a#eins:hover {
+    background-color: #111;
+}
+.active#eins {
+    background-color: rgb(170, 0, 0);
+}
+p.ex1 {
+  margin-top: -10px;
+}
+
+</style>
+<body style="font-family: sans-serif">
+<div align="center">
+<div id="seitenbereich">
+
+<div id="content">
+<h1 style="color: rgb(170, 0, 0)">Randomized Numerical Linear Algebra</h1>
+<hr style="width:100%;text-align:left;margin-left:0">
+<h1>Rensselaer Polytechnic Institute MATH 6590, Spring 2024</h1>
+<hr style="width:100%;text-align:left;margin-left:0">
+
+
+<p>This is the official website for course Math 6590: Randomized Numerical Linear Algebra in Spring 2024.</p>
+
+This website contains most of the information you need for this course (lecture notes, assignments). 
+Course sensitive information (announcements, exam, grade distribution etc.) will be posted on <a href="https://lms.rpi.edu/ultra/institution-page" style="color: rgb(170, 0, 0)" target="_blank">LMS</a> (Rensselaer credentials required).
+
+<h2>General information</h2>
+<hr style="width:100%;text-align:left;margin-left:0">
+
+
+<p>Please read the <a href="documents/math6590_syllabus.pdf" style="color: rgb(170, 0, 0)" target="_blank">course syllabus</a> <b>VERY CAREFULLY</b></p>
+
+<p>Instructor: Fabian M. Faulstich</p>
+
+<p>Lecture: TueFri 10:00AM - 12:00AM Carnegie 206</p>
+
+<p>Office hours: Tue 1:00PM-2:00PM, Thu 4:00PM-5PM. 406 Amos Eaton Hall</p>
+
+<p>Piazza page: General questions about the course and its content, which might be of interest to other students, can be asked on the 
+<a href="https://piazza.com/rpi/spring2024/math6590" style="color: rgb(170, 0, 0)" target="_blank">piazza page</a>.
+</p>
+
+<p>Gradescope page: Homework assignments are to be submitted through 
+<a href="https://www.gradescope.com/courses/694374" style="color: rgb(170, 0, 0)" target="_blank">Gradescope</a>.
+</p>
+
+<h2>Additional resources</h2>
+<hr style="width:100%;text-align:left;margin-left:0">
+<h3>Randomized Numerical Linear Algebra:</h3>
+
+<a href="https://www.cambridge.org/core/journals/acta-numerica/article/abs/randomized-numerical-linear-algebra-foundations-and-algorithms/4486926746CFF4547F42A2996C7DC09C" style="color: rgb(170, 0, 0)" target="_blank">Randomized numerical linear algebra: Foundations and algorithms</a> 
+by P.-G. Martinsson and J. A. Tropp<br> 
+
+<a href="https://epubs.siam.org/doi/abs/10.1137/090771806" style="color: rgb(170, 0, 0)" target="_blank">Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions</a> 
+by N. Halko, P. G. Martinsson and J. A. Tropp<br> 
+
+<a href="https://www.nowpublishers.com/article/Details/MAL-035" style="color: rgb(170, 0, 0)" target="_blank">Randomized Algorithms for Matrices and Data</a> 
+by M. W. Mahoney<br>
+
+<a href="https://www.nowpublishers.com/article/Details/TCS-060" style="color: rgb(170, 0, 0)" target="_blank">Sketching as a Tool for Numerical Linear Algebra</a> 
+by D. P. Woodruff<br>
+
+<a href="https://www.nowpublishers.com/article/Details/MAL-048" style="color: rgb(170, 0, 0)" target="_blank">An Introduction to Matrix Concentration Inequalities</a> 
+by J. A. Tropp<br>
+
+<a href="https://www.cambridge.org/core/journals/acta-numerica/article/randomized-algorithms-in-numerical-linear-algebra/41CF2151FADE7757AA95C7FC15E43630" style="color: rgb(170, 0, 0)" target="_blank">Randomized algorithms in numerical linear algebra</a> 
+by R. Kannan and S. Vempala<br>
+
+
+
+
+<h3>Numerical Linear Algebra:</h3>
+
+<a href="https://epubs.siam.org/doi/10.1137/1.9780898719574" style="color: rgb(170, 0, 0)" target="_blank">
+Numerical linear algebra</a> 
+by L. N. Trefethen and D. Bau, III<br> 
+
+<a href="https://my.siam.org/Store/Product/viewproduct/?ProductId=960" style="color: rgb(170, 0, 0)" target="_blank">
+Matrix Algorithms Volume 1: Basic Decompositions</a> 
+by G. Stewart<br> 
+
+
+<a href="https://my.siam.org/Store/Product/viewproduct/?ProductId=977" style="color: rgb(170, 0, 0)" target="_blank">
+Matrix algorithms volume 2: eigensystems</a> 
+by G. W. Stewart<br> 
+
+
+<a href="https://www.press.jhu.edu/books/title/10678/matrix-computations" style="color: rgb(170, 0, 0)" target="_blank">
+Matrix computations</a> 
+by G. H. Golub and C. F. Van Loan<br> 
+
+
+<a href="https://www.cambridge.org/core/books/matrix-analysis/9CF2CB491C9E97948B15FAD835EF9A8B" style="color: rgb(170, 0, 0)" target="_blank">
+Matrix analysis</a> 
+by R. A. Horn and C. R. Johnson<br> 
+
+
+<a href="https://link.springer.com/book/10.1007/978-1-4612-0653-8" style="color: rgb(170, 0, 0)" target="_blank">
+Matrix analysis</a> 
+by R. Bhatia<br> 
+
+
+
+
+
+<h3>Probability Theory:</h3>
+
+
+<h2>Lecture notes</h2>
+<hr style="width:100%;text-align:left;margin-left:0">
+
+<p>Lecture 1 
+[<a href="documents/lecture_notes/lec1/Lecture_1.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec1.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+<p>Lecture 2 
+[<a href="documents/lecture_notes/lec2/Lecture_2.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec2.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+<br>
+Further relevant resources:
+    <ul>
+    <li>
+    Paper on interpolative decomposition 
+    [<a href="https://arxiv.org/abs/2105.07076" style="color: rgb(170, 0, 0)" target="_blank">Efficient Algorithms for Constructing an Interpolative Decomposition</a>] 
+    </li>
+
+    <li>Blog post by Gregory Gundersen on randomized SVD 
+    [<a href="https://gregorygundersen.com/blog/2019/01/17/randomized-svd/" style="color: rgb(170, 0, 0)" target="_blank">Link</a>] 
+    </li>
+
+    <li> 
+    <a href="https://stanford.edu/class/cs114/readings/JL-Johnson.pdf" style="color: rgb(170, 0, 0)" target="_blank">Extensions of Lipschitz mappings into a Hilbert space </a> 
+    by 
+    W. B. Johnson and J. Lindenstrauss
+    </li>
+
+    <li>
+    <a href="https://arxiv.org/abs/0909.4061" style="color: rgb(170, 0, 0)" target="_blank">Finding structure with randomness: Probabilistic algorithms for constructing approximate matrix decompositions</a> 
+    by 
+    N. Halko, P.-G. Martinsson and J. A. Tropp
+    </li>
+    </ul>
+</p>
+
+<p>Lecture 3 
+[<a href="documents/lecture_notes/lec3/Lecture_3.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec3.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+<p>Lecture 4 
+[<a href="documents/lecture_notes/lec4/Lecture_4.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec4.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+<ul>
+    <li>
+        MATLAB code produced in class 
+        [<a href="documents/MATLAB/NumericalIntegration.m" style="color: rgb(170, 0, 0)" target="_blank">MATLAB</a>] 
+    </li>
+</ul>
+</p>
+
+<p>Lecture 5 
+[<a href="documents/lecture_notes/lec5/Lecture_5.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec5.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+<p>Lecture 6 
+[<a href="documents/lecture_notes/lec6/Lecture_6.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec6.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+
+<p>Lecture 7 
+[<a href="documents/lecture_notes/lec7/Lecture_7.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec7.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+
+<p>Lecture 8 
+[<a href="documents/lecture_notes/lec8/Lecture_8.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec8.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+<p>Lecture 9 
+[<a href="documents/lecture_notes/lec9/Lecture_9.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] 
+</p>
+
+<p>Lecture 10 
+[<a href="documents/lecture_notes/lec10/Lecture_10.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>]
+</p>
+
+<p>Lecture 11
+[<a href="documents/lecture_notes/lec11/Lecture_11.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>]
+</p>
+
+
+<p>Lecture 12
+[<a href="documents/lecture_notes/lec12/Lecture_12.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec12.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+
+</p>
+
+
+<p>Lecture 13
+[<a href="documents/lecture_notes/lec13/Lecture_13.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec13.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+
+</p>
+
+
+<p>Lecture 14
+[<a href="documents/lecture_notes/lec14/Lecture_14.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec14.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+
+</p>
+
+
+<p>Lecture 15
+[<a href="documents/lecture_notes/lec15/Lecture_15.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec15.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+
+<p>Lecture 16
+[<a href="documents/lecture_notes/lec16/Lecture_16.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec16.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+(Annotated version: <a href="documents/lecture_notes/lec16/Lecture_16_notes.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>)
+</p>
+
+<p>Lecture 17 
+[<a href="documents/lecture_notes/lec17/Lecture_17.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec17.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+<br>
+Further relevant resources (in no particular order):
+    <ul>
+    <li>
+    <a href="https://epubs.siam.org/doi/abs/10.1137/19M1261043" style="color: rgb(170, 0, 0)" target="_blank">Randomized Algorithms for Low-Rank Tensor Decompositions in the Tucker Format</a> 
+    by 
+    R. Minster, A. K. Saibaba and M. E. Kilmer
+    </li>
+
+    <li> 
+    <a href="https://arxiv.org/abs/1609.00048" style="color: rgb(170, 0, 0)" target="_blank">Practical sketching algorithms for low-rank matrix approximation</a> 
+    by 
+    J. A. Tropp, et al.
+    </li>
+
+    <li> 
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2017/hash/c4de8ced6214345614d33fb0b16" style="color: rgb(170, 0, 0)" target="_blank">Near Optimal Sketching of Low-Rank Tensor Regression</a> 
+    by 
+    X. Li, J. Haupt, and D. Woodruff
+    </li>
+
+    <li>
+    <a href="https://proceedings.neurips.cc/paper/2018/hash/45a766fa266ea2ebeb6680fa139d2a3d-Abstract.html" style="color: rgb(170, 0, 0)" target="_blank">Low-Rank Tucker Decomposition of Large Tensors Using TensorSketch</a> 
+    by 
+    O. A. Malik and S. Becker
+    </li>
+
+    <li>
+        <a href="https://www.sciencedirect.com/science/article/pii/S0024379506003867" style="color: rgb(170, 0, 0)" target="_blank">A randomized algorithm for a tensor-based generalization of the singular value decomposition</a> 
+    by 
+    P. Drineas and M. W. Mahoney
+    </li>
+
+
+    <li>
+    <a href="https://eurasip.org/Proceedings/Eusipco/Eusipco2016/papers/1570252275.pdf" style="color: rgb(170, 0, 0)" target="_blank">Randomized methods for higher-order subspace separation</a> 
+    by 
+    M. N. da Costa, R. R. Lopes, J. M. T. Romano
+    </li>
+
+
+    <li>
+    <a href="https://arxiv.org/pdf/1506.04448.pdf" style="color: rgb(170, 0, 0)" target="_blank">Fast and Guaranteed Tensor Decomposition via
+Sketching</a> 
+    by   
+    Y. Wang, H.-Y. Tung, A. Smola and A. Anandkumar
+    </li>
+
+
+    <li>
+    <a href="https://arxiv.org/pdf/1412.1885.pdf" style="color: rgb(170, 0, 0)" target="_blank">Decomposition of Big Tensors With Low
+Multilinear Rank</a> 
+    by  
+    G. Zhou, A. Cichocki and S. Xie 
+    </li>
+
+    </ul>
+</p>
+
+
+<p>Lecture 18
+[<a href="documents/lecture_notes/lec18/Lecture_18.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec18.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+
+<p>Lecture 19
+[<a href="documents/lecture_notes/lec19/Lecture_19.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec19.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+<p>Lecture 20
+[<a href="documents/lecture_notes/lec20/Lecture_20.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec20.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+<p>Lecture 21 
+[<a href="documents/lecture_notes/lec21/Lecture_21.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec21.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+<ul>
+    <li>
+        MATLAB code produced in class 
+        [<a href="documents/MATLAB/SketchedEV.m" style="color: rgb(170, 0, 0)" target="_blank">MATLAB</a>] 
+    </li>
+</ul>
+
+<br>
+Further relevant resources (in no particular order):
+    <ul>
+    <li>
+    <a href="https://dl.acm.org/doi/pdf/10.1145/3564246.3585102" style="color: rgb(170, 0, 0)" target="_blank">Optimal Eigenvalue Approximation via Sketching</a> 
+    by 
+    W. Swartworth, and D. P. Woodruff
+    </li>
+
+    <li>
+    <a href="https://arxiv.org/pdf/2204.03782.pdf" style="color: rgb(170, 0, 0)" target="_blank">Testing Positive Semidefiniteness Using Linear Measurements</a> 
+    by 
+    D. Needell, W. Swartworth, and D. P. Woodruff
+    </li>
+
+    <li>
+    <a href="https://www.khoury.northeastern.edu/home/hlnguyen/papers/streammatrix.pdf" style="color: rgb(170, 0, 0)" target="_blank">Eigenvalues of a matrix in the streaming model</a> 
+    by 
+    A. Andoni, and H. Nguyen
+    </li>
+
+    <li>
+    <a href="https://arxiv.org/pdf/2111.00113.pdf" style="color: rgb(170, 0, 0)" target="_blank">Fast & Accurate Randomized Algorithms for Linear Systems and Eigenvalue Problems</a> 
+    by 
+    Y. Nakatsukasa, and J. A. Tropp
+    </li>
+    </ul>
+
+<p>Lecture 22
+[<a href="documents/lecture_notes/lec22/Lecture_22.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec22.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+<p>Lecture 23
+[<a href="documents/lecture_notes/lec23/Lecture_23.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/lecture_notes/lec23.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+
+
+
+
+
+
+
+
+
+
+<h2>Homework Assignments</h2>
+<hr style="width:100%;text-align:left;margin-left:0">
+
+<p>
+Latex example: [<a href="documents/HA/HA_0.zip" style="color: rgb(170, 0, 0)" target="_blank">zip</a>] 
+</p>
+
+<p>Homework assignemnt 1:  
+[<a href="documents/HA/HA1/HA_1.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/HA/HA1.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+<p>Homework assignemnt 2:  
+[<a href="documents/HA/HA2/HA_2.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/HA/HA2.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+
+<p>Homework assignemnt 3:  
+[<a href="documents/HA/HA3/HA_3.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/HA/HA3.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+
+<p>Homework assignemnt 4:  
+[<a href="documents/HA/HA4/HA_4.pdf" style="color: rgb(170, 0, 0)" target="_blank">pdf</a>] and 
+[<a href="documents/HA/HA4.zip" style="color: rgb(170, 0, 0)" target="_blank">LaTeX</a>] 
+</p>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</body>
+</html>
+
