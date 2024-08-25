@@ -121,7 +121,8 @@ by R. Bhatia<br>
 <hr style="width:100%;text-align:left;margin-left:0">
 
 <script>
-function validatePass(){
+function validatePass(ev){
+    console.log(ev)
     if(document.getElementById('password').value == 'Eckart'){
         return true;
     }else{
@@ -133,12 +134,12 @@ function validatePass(){
         return false;
     }
 }
-</script>
+</script> 
 
 Enter password here <input id='password' type='text'/> to access the following assignments
 
 <p>
-Latex example: [<a href="documents/HA/sample.zip" style="color: rgb(170, 0, 0)" target="_blank" oncontextmenu="return false;" onclick="javascript:return validatePass()">zip</a>] 
+Latex example: [<a href="documents/HA/sample.zip" style="color: rgb(170, 0, 0)" target="_blank" oncontextmenu="return false;" onclick=validatePass>zip</a>] 
 </p>
 
 <p>Homework assignment 0:  
