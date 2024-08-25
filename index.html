@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
 <title>Home</title>
 </head>
 <style  type="text/css" >* {box-sizing: border-box;} .column { float: left; padding: 10px; } .left { width: 60%; } .right { width: 30%; } .row:after { content: ""; display: table; clear: both;}
@@ -120,9 +124,26 @@ by R. Bhatia<br>
 <h2>Homework Assignments</h2>
 <hr style="width:100%;text-align:left;margin-left:0">
 
+Enter password here <input id='password' type='text'/> to access the following assignments
+
+<p>
+Latex example: [<a class = "validate" href="documents/HA/sample.zip" style="color: rgb(170, 0, 0)" oncontextmenu = "javascript:return false" target="_blank">zip</a>] 
+</p>
+
+<p>Homework assignment 0:  
+[<a class = "validate" href="documents/HA/HA0/HA_0.pdf" style="color: rgb(170, 0, 0)" oncontextmenu = "javascript:return false" target="_blank">pdf</a>] and 
+[<a class = "validate" href="documents/HA/HA0.zip" style="color: rgb(170, 0, 0)" oncontextmenu = "javascript:return false" target="_blank">LaTeX</a>] 
+</p>
+
+
+</div>
+</div>
+</div>
+</body>
+
 <script>
-function validatePass(ev){
-    console.log(ev)
+
+$(".validate").on("mouseup", function (e) {
     if(document.getElementById('password').value == 'Eckart'){
         return true;
     }else{
@@ -133,25 +154,10 @@ function validatePass(ev){
 
         return false;
     }
-}
+    
+
+});
 </script> 
 
-Enter password here <input id='password' type='text'/> to access the following assignments
-
-<p>
-Latex example: [<a href="documents/HA/sample.zip" style="color: rgb(170, 0, 0)" target="_blank" oncontextmenu="return false;" onclick=validatePass>zip</a>] 
-</p>
-
-<p>Homework assignment 0:  
-[<a href="documents/HA/HA0/HA_0.pdf" style="color: rgb(170, 0, 0)" target="_blank" oncontextmenu="return false;"  onclick="javascript:return validatePass()">pdf</a>] and 
-[<a href="documents/HA/HA0.zip" style="color: rgb(170, 0, 0)" target="_blank" oncontextmenu="return false;" onclick="javascript:return validatePass()">LaTeX</a>] 
-</p>
-
-
-
-</div>
-</div>
-</div>
-</body>
 </html>
 
