@@ -9,7 +9,7 @@ using LinearAlgebra, Test
 
 # ╔═╡ 12916d06-9855-11ef-21da-579e7ca1ba2c
 md"# Homework assignment no. 7
-Due Date: 11/15 by 11:59 pm
+Due Date: 11/22 by 11:59 pm
 
 Fill in your solutions in the Pluto notebook provided below. Once completed, execute the notebook and export it as a PDF. Upload the PDF to Gradescope for grading, and assign the pages to the respective exercises. Please ensure that all of your solutions, including the code you wrote, are visible and legible in the exported PDF before submitting it to Gradescope. Keep in mind that adjustments to assignments after the submission deadline will not be accommodated.
 
